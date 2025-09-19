@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run C++ in VSCode Terminal",
+            "type": "cppvsdbg",   // 👈 use cppvsdbg (Windows debugger)
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "cwd": "${fileDirname}",
+            "stopAtEntry": false,
+            "preLaunchTask": "build active file",
+            "console": "integratedTerminal"
+        }
+    ]
+}
