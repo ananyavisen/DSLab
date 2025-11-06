@@ -3,7 +3,7 @@
     "configurations": [
         {
             "name": "Run C++ in VSCode Terminal",
-            "type": "cppvsdbg",   // 👈 use cppvsdbg (Windows debugger)
+            "type": "cppvsdbg",   
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
             "args": [],

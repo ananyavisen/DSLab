@@ -62,7 +62,7 @@ void prefix(char opStack[]){
 	 i++;
 	i=i-1;
     while(i>=0){
-       
+       1 +
         char symbol=opStack[i];
         if(symbol>='0' && symbol<='9')
          Push(symbol-'0');
